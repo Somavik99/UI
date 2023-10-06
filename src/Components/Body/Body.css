@@ -1,0 +1,15 @@
+.imgBody{
+    transform: translateZ(-20px) scale(2);
+  
+}
+
+
+
+
+.Background{
+    transform: translateZ(-20px) scale(2);
+}
+
+.Foreground{
+    transform: translateZ(-8px) scale(1.5);
+}
