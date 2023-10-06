@@ -45,7 +45,7 @@ const Body = () => {
                 </div>
                 <div
                   style={{ y }}
-                  className="Foreground  z-50 top-[30pc] object-cover right-52 absolute before:content-['#'] after:content-['\201D'] text-[68px] font-semibold italic"
+                  className="Foreground  z-50 top-[26pc]  object-cover left-[30em] fixed before:content-['#'] after:content-['\201D'] text-[68px] font-semibold italic"
                 >
                   {image.id}
                 </div>

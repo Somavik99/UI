@@ -10,7 +10,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative z-[200]">
       <div  style={{backgroundColor:"rgba(1,1,1,0.1)"}} className="z-[100] w-[80vw] left-[180px] bg-blend-darken bg-red-400 shadow-slate-300 shadow-lg backdrop-filter backdrop-blur-[20px]  text-slate-200 m-2 pl-[60px]  rounded-2xl  pr-[70px]  flex items-center justify-between space-x-16 fixed">
         <h1 className=" text-[80px] font-bold text-black">FLY.</h1>
         <h1 className="sticky left-0 text-[25px] before:content-['#'] w-24 font-bold border-b-2 border-white hover:w-28 text-black hover:after:content-['.']  transition ease-in-out delay-200 hover:transition-all duration-700 hover:delay-200 hover:ease-in-out hover:transform-gpu hover:scale-110  hover:border-black hover:border-b  cursor-pointer">
