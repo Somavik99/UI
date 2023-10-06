@@ -7,9 +7,9 @@
 
 
 .Background{
-    transform: translateZ(-20px) scale(2);
+    transform: translateZ(-20px) scale(3);
 }
 
 .Foreground{
-    transform: translateZ(-8px) scale(1.5);
+    transform: translateZ(-8px) scale(2.1);
 }
