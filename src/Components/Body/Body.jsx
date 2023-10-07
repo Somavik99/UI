@@ -45,7 +45,7 @@ const Body = () => {
                 </div>
                 <div
                   style={{ y }}
-                  className="Foreground  z-50 top-[22pc]  object-cover left-[25em] fixed before:content-['#'] after:content-['\201D'] text-[68px] font-semibold italic"
+                  className="Foreground  z-50 top-[22pc]  object-cover left-[25em] fixed before:content-['#'] after:content-['\201D'] text-white text-[68px] font-semibold italic"
                 >
                   {image.id}
                 </div>
@@ -57,7 +57,7 @@ const Body = () => {
       <div>
         <h1
           style={{ border: " black" }}
-          className="text-[80px] font-bold text-red-500 z-[100 ] rotate-[-40deg]"
+          className="text-[80px] font-bold text-red-500 z-[100 ] rotate-[360deg]"
         >
           TRAVEL.
         </h1>
