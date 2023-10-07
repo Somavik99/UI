@@ -61,7 +61,7 @@ const BodyFooter = () => {
         <motion.div
           variants={Variants}
           animate={TextHoverVariant}
-          className="h-[80px] w-[80px] bg-white border-2 border-black rounded-full fixed top-0 left-0 bottom-0 right-0 pointer-events-none"
+          className="h-[50px] w-[50px] bg-white border-2 border-black rounded-full fixed top-0 left-0 bottom-0 right-0 pointer-events-none"
         />
         <img
           src={Camera}

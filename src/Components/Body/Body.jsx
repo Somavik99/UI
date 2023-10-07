@@ -24,7 +24,7 @@ const Body = () => {
             >
               <motion.div
                 style={{ y }}
-                className="imgBody z-[100] absolute left-52 w-[800px] font-bold text-[75px]  before:content-['\201C']"
+                className="imgBody antialiased z-[100] absolute left-52 w-[800px] font-bold text-[75px]  before:content-['\201C']"
               >
                 {image.body}
               </motion.div>
@@ -34,7 +34,7 @@ const Body = () => {
                 </div>
                 <div
                   style={{ y }}
-                  className="Foreground  z-50 top-[22pc]  object-cover left-[25em] fixed before:content-['#'] after:content-['\201D'] text-white text-[68px] font-semibold italic"
+                  className="Foreground antialiased z-50 top-[22pc]  object-cover left-[25em] fixed before:content-['#'] after:content-['\201D'] text-white text-[68px] font-semibold italic"
                 >
                   {image.id}
                 </div>
