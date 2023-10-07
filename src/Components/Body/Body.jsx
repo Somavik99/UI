@@ -24,7 +24,7 @@ const Body = () => {
             >
               <motion.div
                 style={{ y }}
-                className="imgBody z-[100] absolute left-52 w-[800px] font-bold text-[80px]  before:content-['\201C']"
+                className="imgBody z-[100] absolute left-52 w-[800px] font-bold text-[75px]  before:content-['\201C']"
               >
                 {image.body}
               </motion.div>

@@ -34,11 +34,11 @@ const BodyFooter = () => {
       y: MousePointerMove.y - 25,
     },
     Text: {
-      height: 120,
-      width: 120,
-      x: MousePointerMove.x - 25,
-      y: MousePointerMove.y - 25,
-      backgroundColor:"black",
+      height: 200,
+      width: 200,
+      x: MousePointerMove.x - 75,
+      y: MousePointerMove.y - 75,
+      backgroundColor: "white",
       mixBlendMode: "difference",
     },
   };
@@ -53,7 +53,7 @@ const BodyFooter = () => {
           <h1
             onMouseEnter={TextView}
             onMouseLeave={TextHide}
-            className="absolute  top-[2em] bottom-0 left-[5em] text-8xl text-center  font-bold"
+            className="absolute z-50  top-[2em] bottom-0 left-[5em] text-8xl text-center text-black font-bold"
           >
             #EnjoyYourJourney!
           </h1>
@@ -61,12 +61,12 @@ const BodyFooter = () => {
         <motion.div
           variants={Variants}
           animate={TextHoverVariant}
-          className="h-[50px] w-[50px] bg-black border-2 border-white rounded-full fixed top-0 left-0 bottom-0 right-0 pointer-events-none"
+          className="h-[80px] w-[80px] bg-white border-2 border-black rounded-full fixed top-0 left-0 bottom-0 right-0 pointer-events-none"
         />
         <img
           src={Camera}
           alt="Camera"
-          className="w-[1050px] z-50 rounded-2xl absolute mt-[50%] bottom-96 origin-center text-white "
+          className="w-[1050px] z-50 rounded-2xl absolute mt-[50%] bottom-96 origin-center  "
         />
         <img
           src={Travel}
