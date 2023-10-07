@@ -9,10 +9,10 @@ const Body = () => {
   let y = useTransform(scrollYProgress, [0,1], ["0%", "110%"]);
   // let y1 = useTransform(scrollYProgress,[1,2], ["0%","80%"])
 
-  const SwingFunction = (e) => {
+  const SwingFunction = () => {
     const FrontYard = 250;
     const BackYard = 550;
-    window.addEventListener("mousemove", () => {
+    window.addEventListener("mousemove", (e) => {
       const x = e.clientX;
       const y = e.clientY;
       window.style.transform = `translate(${x / FrontYard}%,${y / BackYard})`;
@@ -45,7 +45,7 @@ const Body = () => {
                 </div>
                 <div
                   style={{ y }}
-                  className="Foreground  z-50 top-[26pc]  object-cover left-[30em] fixed before:content-['#'] after:content-['\201D'] text-[68px] font-semibold italic"
+                  className="Foreground  z-50 top-[22pc]  object-cover left-[25em] fixed before:content-['#'] after:content-['\201D'] text-[68px] font-semibold italic"
                 >
                   {image.id}
                 </div>
