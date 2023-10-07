@@ -5,7 +5,7 @@ import Nav from "./Components/Navbar/Nav";
 function App() {
   return (
     <>
-      <div className="h-[150px] relative mt-[2%] z-50 bg-transparent">
+      <div className="h-[150px] relative mt-[2%] z-[100] bg-transparent">
         <Nav />
       </div>
 

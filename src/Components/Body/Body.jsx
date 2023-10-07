@@ -6,24 +6,13 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const Body = () => {
   let { scrollYProgress } = useScroll();
-  let y = useTransform(scrollYProgress, [0,1], ["0%", "110%"]);
+  let y = useTransform(scrollYProgress, [0, 1], ["0%", "110%"]);
   // let y1 = useTransform(scrollYProgress,[1,2], ["0%","80%"])
-
-  const SwingFunction = () => {
-    const FrontYard = 250;
-    const BackYard = 550;
-    window.addEventListener("mousemove", (e) => {
-      const x = e.clientX;
-      const y = e.clientY;
-      window.style.transform = `translate(${x / FrontYard}%,${y / BackYard})`;
-    });
-  };
 
   return (
     <div className="h-[100%]  w-[100%] ">
       <div
         style={{ perspective: 22, y }}
-        onMouseOver={SwingFunction}
         className="transform-gpu flex justify-center items-center flex-col w-[100vw] relative snap-y "
       >
         {ImgData.map((image, index) => {
