@@ -12,7 +12,7 @@ function App() {
       <div className="-z-50 h-[100%]">
         <Body />
       </div>
-      <div className=" h-[800px]">
+      <div className="w-[100vw] h-[800px]">
         <BodyFooter />
       </div>
     </>

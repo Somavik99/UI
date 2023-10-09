@@ -12,7 +12,7 @@ const BodyFooter = () => {
 
   const [TextHoverVariant, setTextHoverVariant] = useState("default");
 
-  console.log(MousePointerMove);
+
 
   useEffect(() => {
     const PointerEventHandler = (e) => {
@@ -38,7 +38,7 @@ const BodyFooter = () => {
       width: 200,
       x: MousePointerMove.x - 75,
       y: MousePointerMove.y - 75,
-      backgroundColor: "white",
+      backgroundColor: "rgb(255, 255, 255)",
       mixBlendMode: "difference",
     },
   };
@@ -48,7 +48,7 @@ const BodyFooter = () => {
 
   return (
     <>
-      <div className="w-[100vw] overflow-x-hidden relative flex justify-center items-center flex-row h-[1500px] top-[50em] border-2 bg-black border-black z-50">
+      <div className="w-[100%] overflow-x-hidden relative flex justify-center items-center flex-row h-[1500px] top-[50em] border-2 bg-black border-black z-50">
         <div>
           <h1
             onMouseEnter={TextView}
