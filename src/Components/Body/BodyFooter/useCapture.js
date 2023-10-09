@@ -12,17 +12,19 @@ const useCapture = () => {
       x: `${e.clientX}px`,
       y: `${e.clientY}px`,
     });
+
+    console.log(ImageCaptureAxis);
     setIsCapturingImage((Capture) => !Capture);
   }
 
   function CaptureImage() {
-    window.addEventListener("mousedown", ClickEffect, false);
+    window.addEventListener("mouseup", ClickEffect, false);
   }
 
   useEffect(() => {
     return () => {
-      if (IsCapturingImage) {
-        window.removeEventListener("mousedown", ClickEffect);
+      if (!IsCapturingImage) {
+        window.removeEventListener("mouseup", ClickEffect);
         ImageCaptureAxis.x = 0;
         ImageCaptureAxis.y = 0;
       }
